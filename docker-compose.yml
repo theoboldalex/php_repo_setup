@@ -1,0 +1,7 @@
+services:
+  php:
+    build: .
+    environment:
+      XDEBUG_MODE: "coverage"
+    volumes:
+      - ".:/var/www/"
