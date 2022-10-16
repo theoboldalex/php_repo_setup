@@ -1,6 +1,6 @@
 services:
   php:
-    build: .
+    build: docker/php/
     environment:
       XDEBUG_MODE: "coverage"
     volumes:
